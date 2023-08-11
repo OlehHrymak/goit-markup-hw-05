@@ -414,13 +414,56 @@
           </div>  
       </div>       
     </footer>
-    <div class="backdrow is-hidden" data-modal>
+    <div class="backdrow" data-modal>
       <div class="modal">
         <button type="button" class="modal-close-btn" data-modal-close>
           <svg class="close-icon" width="8" height="8">
             <use href="./images/icons.svg#icons-close-black"></use>
           </svg>
         </button>
+        <p class="modal-title">Leave your contacts and we will call you back</p>
+        <form action="#" class="modal-form">
+          <div class="modal-field">
+            <label for="user-name" class="modal-label">Name</label> 
+              <input 
+                type="text" 
+                class="modal-input" 
+                name="user-name" 
+                placeholder="Name" 
+                required
+                minlength="2"
+                maxlength="10"
+                id="user-name"
+                />
+          </div>
+          <div class="modal-field">
+            <label for="user-phone" class="modal-label">Phone</label>
+              <input 
+                type="tel" 
+                class="modal-input" 
+                name="user-phone"
+                placeholder="Phone" 
+                required
+                minlength="2"
+                maxlength="10"
+                id="user-phone"
+                />
+         </div>
+         <div class="modal-field">
+            <label for="user-email" class="modal-label">Email</label>
+              <input 
+                type="email" 
+                class="modal-input"
+                name="user-email"
+                placeholder="Email" 
+                required
+                minlength="2"
+                maxlength="10"
+                id="user-email"  
+                />
+          </div>
+          <button type="submit">Send</button>
+        </form>
       </div>
     </div>
     <script src="./js/modal.js"></script>
