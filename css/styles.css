@@ -813,12 +813,6 @@ letter-spacing: 0.04em;
 display: flex;
 align-items: center;
 }
-.user-privacy-span {
- border: 1px solid rgba(46, 47, 66, 0.4);
- border-radius: 2px; 
- transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
- display: inline-flex;
-}
 
 .modal-check-link {
   text-decoration-line: underline;
@@ -828,14 +822,15 @@ align-items: center;
 .modal-check-text span {
 width: 16px;
 height: 16px;
-border-radius: 1px;
 background-color: var(--navy-blue-cl,);
 margin-right: 12px;
-display: flex;
 align-items: center;
 justify-content: center;
 fill: transparent;
-transition-duration: 300ms;
+ border: 1px solid rgba(46, 47, 66, 0.4);
+ border-radius: 2px; 
+ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+ display: inline-flex;
 }
 .check-icon {
 
